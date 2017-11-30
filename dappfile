@@ -1,8 +1,8 @@
-version: 1.0.0
-tags: []
-layout:
-  sol_sources: .
-  build_dir: build
-dependencies: {}
-ignore: []
-name: ethereum-stringutils
+name            ds-strings
+description     String utilities
+version         0.0.1
+
+author          Nikolai Mushegian <nikolai@nexusdev.us>
+author          Daniel Brockman <daniel@brockman.se>
+author          Jeff Ploughman <jeff@immutability.io>
+license         Apache-2.0

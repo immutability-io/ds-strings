@@ -1,7 +1,10 @@
-import 'dapple/test.sol';
-import 'strings.sol';
+pragma solidity ^0.4.14;
 
-contract StringsTest is Test {
+import "ds-test/test.sol";
+
+import "./strings.sol";
+
+contract StringsTest is DSTest {
 	using strings for *;
 
     function abs(int x) private returns (int) {
